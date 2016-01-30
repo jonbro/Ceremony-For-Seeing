@@ -18,6 +18,13 @@ ModelImporter:
     100020: pCube2
     100022: pCylinder1
     100024: Shrine
+    100026: Brazier 1
+    100028: Intoner 1
+    100030: Intoner 2
+    100032: IntonerBase
+    100034: IntonerChamber
+    100036: Reliquary
+    100038: RitualBases
     400000: //RootNode
     400002: Brazier
     400004: InnerInscriber
@@ -31,6 +38,13 @@ ModelImporter:
     400020: pCube2
     400022: pCylinder1
     400024: Shrine
+    400026: Brazier 1
+    400028: Intoner 1
+    400030: Intoner 2
+    400032: IntonerBase
+    400034: IntonerChamber
+    400036: Reliquary
+    400038: RitualBases
     2300000: //RootNode
     2300002: Brazier
     2300004: InnerInscriber
@@ -42,6 +56,9 @@ ModelImporter:
     2300016: pCube2
     2300018: pCylinder1
     2300020: Shrine
+    2300022: Brazier 1
+    2300024: Intoner 2
+    2300026: IntonerChamber
     3300000: //RootNode
     3300002: Brazier
     3300004: InnerInscriber
@@ -53,6 +70,9 @@ ModelImporter:
     3300016: pCube2
     3300018: pCylinder1
     3300020: Shrine
+    3300022: Brazier 1
+    3300024: Intoner 2
+    3300026: IntonerChamber
     4300000: RitualMachines2
     4300002: InscriberBase
     4300004: InscriberPedastal
@@ -64,6 +84,8 @@ ModelImporter:
     4300016: pCube2
     4300018: Shrine
     4300020: Brazier
+    4300022: Intoner
+    4300024: IntonerChamber
   materials:
     importMaterials: 1
     materialName: 0
