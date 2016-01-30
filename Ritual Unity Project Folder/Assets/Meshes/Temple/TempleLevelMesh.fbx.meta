@@ -1,0 +1,797 @@
+fileFormatVersion: 2
+guid: 4bdc6d7eb11171d499fc89275df6c17a
+timeCreated: 1454141866
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BackWing1
+    100002: BackWing2
+    100004: Cairn
+    100006: EntranceFloor
+    100008: group1
+    100010: MainStairs
+    100012: OutsidePath
+    100014: pCube10
+    100016: pCube11
+    100018: pCube12
+    100020: pCube13
+    100022: pCube14
+    100024: pCube15
+    100026: pCube16
+    100028: pCube17
+    100030: pCube18
+    100032: pCube19
+    100034: pCube20
+    100036: pCube21
+    100038: pCube22
+    100040: pCube23
+    100042: pCube24
+    100044: pCube26
+    100046: pCube27
+    100048: pCube28
+    100050: pCube29
+    100052: pCube30
+    100054: pCube31
+    100056: pCube32
+    100058: pCube32 1
+    100060: pCube33
+    100062: pCube33 1
+    100064: pCube34
+    100066: pCube34 1
+    100068: pCube35
+    100070: pCube35 1
+    100072: pCube36
+    100074: pCube37
+    100076: pCube39
+    100078: pCube39 1
+    100080: pCube4
+    100082: pCube40
+    100084: pCube40 1
+    100086: pCube41
+    100088: pCube41 1
+    100090: pCube42
+    100092: pCube42 1
+    100094: pCube43
+    100096: pCube43 1
+    100098: pCube44
+    100100: pCube44 1
+    100102: pCube45
+    100104: pCube45 1
+    100106: pCube46
+    100108: pCube48
+    100110: pCube48 1
+    100112: pCube49
+    100114: pCube49 1
+    100116: pCube5
+    100118: pCube50
+    100120: pCube50 1
+    100122: pCube51
+    100124: pCube51 1
+    100126: pCube52
+    100128: pCube52 1
+    100130: pCube54
+    100132: pCube54 1
+    100134: pCube55
+    100136: pCube55 1
+    100138: pCube57
+    100140: pCube57 1
+    100142: pCube58
+    100144: pCube58 1
+    100146: pCube59
+    100148: pCube59 1
+    100150: pCube6
+    100152: pCube60
+    100154: pCube60 1
+    100156: pCube61
+    100158: pCube61 1
+    100160: pCube62
+    100162: pCube62 1
+    100164: pCube63
+    100166: pCube63 1
+    100168: pCube64
+    100170: pCube64 1
+    100172: pCube65
+    100174: pCube65 1
+    100176: pCube66
+    100178: pCube66 1
+    100180: pCube7
+    100182: pCube8
+    100184: pCube9
+    100186: RitualSpaceBrazier
+    100188: RitualSpaceIntoner
+    100190: SquareSpiralStairs1
+    100192: SquareSpiralStairs1 1
+    100194: Stair1
+    100196: Stair10
+    100198: Stair11
+    100200: Stair12
+    100202: Stair13
+    100204: Stair14
+    100206: Stair15
+    100208: Stair16
+    100210: Stair17
+    100212: Stair18
+    100214: Stair19
+    100216: Stair2
+    100218: Stair20
+    100220: Stair21
+    100222: Stair22
+    100224: Stair23
+    100226: Stair24
+    100228: Stair25
+    100230: Stair26
+    100232: Stair27
+    100234: Stair28
+    100236: Stair29
+    100238: Stair3
+    100240: Stair30
+    100242: Stair31
+    100244: Stair32
+    100246: Stair33
+    100248: Stair34
+    100250: Stair35
+    100252: Stair36
+    100254: Stair37
+    100256: Stair38
+    100258: Stair39
+    100260: Stair4
+    100262: Stair40
+    100264: Stair41
+    100266: Stair42
+    100268: Stair43
+    100270: Stair44
+    100272: Stair45
+    100274: Stair46
+    100276: Stair47
+    100278: Stair48
+    100280: Stair49
+    100282: Stair5
+    100284: Stair50
+    100286: Stair51
+    100288: Stair6
+    100290: Stair7
+    100292: Stair8
+    100294: Stair9
+    100296: //RootNode
+    100298: TempleWallsMain
+    400000: BackWing1
+    400002: BackWing2
+    400004: Cairn
+    400006: EntranceFloor
+    400008: group1
+    400010: MainStairs
+    400012: OutsidePath
+    400014: pCube10
+    400016: pCube11
+    400018: pCube12
+    400020: pCube13
+    400022: pCube14
+    400024: pCube15
+    400026: pCube16
+    400028: pCube17
+    400030: pCube18
+    400032: pCube19
+    400034: pCube20
+    400036: pCube21
+    400038: pCube22
+    400040: pCube23
+    400042: pCube24
+    400044: pCube26
+    400046: pCube27
+    400048: pCube28
+    400050: pCube29
+    400052: pCube30
+    400054: pCube31
+    400056: pCube32
+    400058: pCube32 1
+    400060: pCube33
+    400062: pCube33 1
+    400064: pCube34
+    400066: pCube34 1
+    400068: pCube35
+    400070: pCube35 1
+    400072: pCube36
+    400074: pCube37
+    400076: pCube39
+    400078: pCube39 1
+    400080: pCube4
+    400082: pCube40
+    400084: pCube40 1
+    400086: pCube41
+    400088: pCube41 1
+    400090: pCube42
+    400092: pCube42 1
+    400094: pCube43
+    400096: pCube43 1
+    400098: pCube44
+    400100: pCube44 1
+    400102: pCube45
+    400104: pCube45 1
+    400106: pCube46
+    400108: pCube48
+    400110: pCube48 1
+    400112: pCube49
+    400114: pCube49 1
+    400116: pCube5
+    400118: pCube50
+    400120: pCube50 1
+    400122: pCube51
+    400124: pCube51 1
+    400126: pCube52
+    400128: pCube52 1
+    400130: pCube54
+    400132: pCube54 1
+    400134: pCube55
+    400136: pCube55 1
+    400138: pCube57
+    400140: pCube57 1
+    400142: pCube58
+    400144: pCube58 1
+    400146: pCube59
+    400148: pCube59 1
+    400150: pCube6
+    400152: pCube60
+    400154: pCube60 1
+    400156: pCube61
+    400158: pCube61 1
+    400160: pCube62
+    400162: pCube62 1
+    400164: pCube63
+    400166: pCube63 1
+    400168: pCube64
+    400170: pCube64 1
+    400172: pCube65
+    400174: pCube65 1
+    400176: pCube66
+    400178: pCube66 1
+    400180: pCube7
+    400182: pCube8
+    400184: pCube9
+    400186: RitualSpaceBrazier
+    400188: RitualSpaceIntoner
+    400190: SquareSpiralStairs1
+    400192: SquareSpiralStairs1 1
+    400194: Stair1
+    400196: Stair10
+    400198: Stair11
+    400200: Stair12
+    400202: Stair13
+    400204: Stair14
+    400206: Stair15
+    400208: Stair16
+    400210: Stair17
+    400212: Stair18
+    400214: Stair19
+    400216: Stair2
+    400218: Stair20
+    400220: Stair21
+    400222: Stair22
+    400224: Stair23
+    400226: Stair24
+    400228: Stair25
+    400230: Stair26
+    400232: Stair27
+    400234: Stair28
+    400236: Stair29
+    400238: Stair3
+    400240: Stair30
+    400242: Stair31
+    400244: Stair32
+    400246: Stair33
+    400248: Stair34
+    400250: Stair35
+    400252: Stair36
+    400254: Stair37
+    400256: Stair38
+    400258: Stair39
+    400260: Stair4
+    400262: Stair40
+    400264: Stair41
+    400266: Stair42
+    400268: Stair43
+    400270: Stair44
+    400272: Stair45
+    400274: Stair46
+    400276: Stair47
+    400278: Stair48
+    400280: Stair49
+    400282: Stair5
+    400284: Stair50
+    400286: Stair51
+    400288: Stair6
+    400290: Stair7
+    400292: Stair8
+    400294: Stair9
+    400296: //RootNode
+    400298: TempleWallsMain
+    2300000: Cairn
+    2300002: EntranceFloor
+    2300004: OutsidePath
+    2300006: pCube10
+    2300008: pCube11
+    2300010: pCube12
+    2300012: pCube13
+    2300014: pCube14
+    2300016: pCube15
+    2300018: pCube16
+    2300020: pCube17
+    2300022: pCube18
+    2300024: pCube19
+    2300026: pCube20
+    2300028: pCube21
+    2300030: pCube22
+    2300032: pCube23
+    2300034: pCube24
+    2300036: pCube26
+    2300038: pCube27
+    2300040: pCube28
+    2300042: pCube29
+    2300044: pCube30
+    2300046: pCube31
+    2300048: pCube32
+    2300050: pCube32 1
+    2300052: pCube33
+    2300054: pCube33 1
+    2300056: pCube34
+    2300058: pCube34 1
+    2300060: pCube35
+    2300062: pCube35 1
+    2300064: pCube36
+    2300066: pCube37
+    2300068: pCube39
+    2300070: pCube39 1
+    2300072: pCube4
+    2300074: pCube40
+    2300076: pCube40 1
+    2300078: pCube41
+    2300080: pCube41 1
+    2300082: pCube42
+    2300084: pCube42 1
+    2300086: pCube43
+    2300088: pCube43 1
+    2300090: pCube44
+    2300092: pCube44 1
+    2300094: pCube45
+    2300096: pCube45 1
+    2300098: pCube46
+    2300100: pCube48
+    2300102: pCube48 1
+    2300104: pCube49
+    2300106: pCube49 1
+    2300108: pCube5
+    2300110: pCube50
+    2300112: pCube50 1
+    2300114: pCube51
+    2300116: pCube51 1
+    2300118: pCube52
+    2300120: pCube52 1
+    2300122: pCube54
+    2300124: pCube54 1
+    2300126: pCube55
+    2300128: pCube55 1
+    2300130: pCube57
+    2300132: pCube57 1
+    2300134: pCube58
+    2300136: pCube58 1
+    2300138: pCube59
+    2300140: pCube59 1
+    2300142: pCube6
+    2300144: pCube60
+    2300146: pCube60 1
+    2300148: pCube61
+    2300150: pCube61 1
+    2300152: pCube62
+    2300154: pCube62 1
+    2300156: pCube63
+    2300158: pCube63 1
+    2300160: pCube64
+    2300162: pCube64 1
+    2300164: pCube65
+    2300166: pCube65 1
+    2300168: pCube66
+    2300170: pCube66 1
+    2300172: pCube7
+    2300174: pCube8
+    2300176: pCube9
+    2300178: SquareSpiralStairs1
+    2300180: SquareSpiralStairs1 1
+    2300182: Stair1
+    2300184: Stair10
+    2300186: Stair11
+    2300188: Stair12
+    2300190: Stair13
+    2300192: Stair14
+    2300194: Stair15
+    2300196: Stair16
+    2300198: Stair17
+    2300200: Stair18
+    2300202: Stair19
+    2300204: Stair2
+    2300206: Stair20
+    2300208: Stair21
+    2300210: Stair22
+    2300212: Stair23
+    2300214: Stair24
+    2300216: Stair25
+    2300218: Stair26
+    2300220: Stair27
+    2300222: Stair28
+    2300224: Stair29
+    2300226: Stair3
+    2300228: Stair30
+    2300230: Stair31
+    2300232: Stair32
+    2300234: Stair33
+    2300236: Stair34
+    2300238: Stair35
+    2300240: Stair36
+    2300242: Stair37
+    2300244: Stair38
+    2300246: Stair39
+    2300248: Stair4
+    2300250: Stair40
+    2300252: Stair41
+    2300254: Stair42
+    2300256: Stair43
+    2300258: Stair44
+    2300260: Stair45
+    2300262: Stair46
+    2300264: Stair47
+    2300266: Stair48
+    2300268: Stair49
+    2300270: Stair5
+    2300272: Stair50
+    2300274: Stair51
+    2300276: Stair6
+    2300278: Stair7
+    2300280: Stair8
+    2300282: Stair9
+    3300000: Cairn
+    3300002: EntranceFloor
+    3300004: OutsidePath
+    3300006: pCube10
+    3300008: pCube11
+    3300010: pCube12
+    3300012: pCube13
+    3300014: pCube14
+    3300016: pCube15
+    3300018: pCube16
+    3300020: pCube17
+    3300022: pCube18
+    3300024: pCube19
+    3300026: pCube20
+    3300028: pCube21
+    3300030: pCube22
+    3300032: pCube23
+    3300034: pCube24
+    3300036: pCube26
+    3300038: pCube27
+    3300040: pCube28
+    3300042: pCube29
+    3300044: pCube30
+    3300046: pCube31
+    3300048: pCube32
+    3300050: pCube32 1
+    3300052: pCube33
+    3300054: pCube33 1
+    3300056: pCube34
+    3300058: pCube34 1
+    3300060: pCube35
+    3300062: pCube35 1
+    3300064: pCube36
+    3300066: pCube37
+    3300068: pCube39
+    3300070: pCube39 1
+    3300072: pCube4
+    3300074: pCube40
+    3300076: pCube40 1
+    3300078: pCube41
+    3300080: pCube41 1
+    3300082: pCube42
+    3300084: pCube42 1
+    3300086: pCube43
+    3300088: pCube43 1
+    3300090: pCube44
+    3300092: pCube44 1
+    3300094: pCube45
+    3300096: pCube45 1
+    3300098: pCube46
+    3300100: pCube48
+    3300102: pCube48 1
+    3300104: pCube49
+    3300106: pCube49 1
+    3300108: pCube5
+    3300110: pCube50
+    3300112: pCube50 1
+    3300114: pCube51
+    3300116: pCube51 1
+    3300118: pCube52
+    3300120: pCube52 1
+    3300122: pCube54
+    3300124: pCube54 1
+    3300126: pCube55
+    3300128: pCube55 1
+    3300130: pCube57
+    3300132: pCube57 1
+    3300134: pCube58
+    3300136: pCube58 1
+    3300138: pCube59
+    3300140: pCube59 1
+    3300142: pCube6
+    3300144: pCube60
+    3300146: pCube60 1
+    3300148: pCube61
+    3300150: pCube61 1
+    3300152: pCube62
+    3300154: pCube62 1
+    3300156: pCube63
+    3300158: pCube63 1
+    3300160: pCube64
+    3300162: pCube64 1
+    3300164: pCube65
+    3300166: pCube65 1
+    3300168: pCube66
+    3300170: pCube66 1
+    3300172: pCube7
+    3300174: pCube8
+    3300176: pCube9
+    3300178: SquareSpiralStairs1
+    3300180: SquareSpiralStairs1 1
+    3300182: Stair1
+    3300184: Stair10
+    3300186: Stair11
+    3300188: Stair12
+    3300190: Stair13
+    3300192: Stair14
+    3300194: Stair15
+    3300196: Stair16
+    3300198: Stair17
+    3300200: Stair18
+    3300202: Stair19
+    3300204: Stair2
+    3300206: Stair20
+    3300208: Stair21
+    3300210: Stair22
+    3300212: Stair23
+    3300214: Stair24
+    3300216: Stair25
+    3300218: Stair26
+    3300220: Stair27
+    3300222: Stair28
+    3300224: Stair29
+    3300226: Stair3
+    3300228: Stair30
+    3300230: Stair31
+    3300232: Stair32
+    3300234: Stair33
+    3300236: Stair34
+    3300238: Stair35
+    3300240: Stair36
+    3300242: Stair37
+    3300244: Stair38
+    3300246: Stair39
+    3300248: Stair4
+    3300250: Stair40
+    3300252: Stair41
+    3300254: Stair42
+    3300256: Stair43
+    3300258: Stair44
+    3300260: Stair45
+    3300262: Stair46
+    3300264: Stair47
+    3300266: Stair48
+    3300268: Stair49
+    3300270: Stair5
+    3300272: Stair50
+    3300274: Stair51
+    3300276: Stair6
+    3300278: Stair7
+    3300280: Stair8
+    3300282: Stair9
+    4300000: pCube4
+    4300002: pCube5
+    4300004: pCube6
+    4300006: pCube7
+    4300008: pCube8
+    4300010: pCube9
+    4300012: pCube10
+    4300014: pCube11
+    4300016: pCube12
+    4300018: pCube13
+    4300020: pCube14
+    4300022: pCube16
+    4300024: pCube17
+    4300026: pCube18
+    4300028: pCube19
+    4300030: pCube20
+    4300032: pCube15
+    4300034: pCube21
+    4300036: pCube22
+    4300038: pCube23
+    4300040: pCube24
+    4300042: pCube26
+    4300044: pCube27
+    4300046: pCube28
+    4300048: pCube29
+    4300050: pCube30
+    4300052: pCube31
+    4300054: pCube36
+    4300056: pCube37
+    4300058: pCube34
+    4300060: pCube44
+    4300062: pCube40
+    4300064: pCube39
+    4300066: pCube41
+    4300068: pCube43
+    4300070: pCube45
+    4300072: pCube42
+    4300074: pCube33
+    4300076: pCube34
+    4300078: pCube44
+    4300080: pCube40
+    4300082: pCube39
+    4300084: pCube41
+    4300086: pCube43
+    4300088: pCube45
+    4300090: pCube42
+    4300092: pCube33
+    4300094: pCube46
+    4300096: OutsidePath
+    4300098: Cairn
+    4300100: EntranceFloor
+    4300102: Stair1
+    4300104: Stair2
+    4300106: Stair3
+    4300108: Stair4
+    4300110: Stair5
+    4300112: Stair6
+    4300114: Stair7
+    4300116: Stair8
+    4300118: Stair9
+    4300120: Stair10
+    4300122: Stair11
+    4300124: Stair12
+    4300126: Stair13
+    4300128: Stair14
+    4300130: Stair15
+    4300132: Stair16
+    4300134: Stair17
+    4300136: Stair18
+    4300138: Stair19
+    4300140: Stair20
+    4300142: Stair21
+    4300144: Stair22
+    4300146: Stair23
+    4300148: Stair24
+    4300150: Stair25
+    4300152: Stair26
+    4300154: Stair27
+    4300156: Stair28
+    4300158: Stair29
+    4300160: Stair30
+    4300162: Stair31
+    4300164: Stair32
+    4300166: Stair33
+    4300168: Stair34
+    4300170: Stair35
+    4300172: Stair36
+    4300174: Stair37
+    4300176: Stair38
+    4300178: Stair39
+    4300180: Stair40
+    4300182: Stair41
+    4300184: Stair42
+    4300186: Stair43
+    4300188: Stair44
+    4300190: Stair45
+    4300192: Stair46
+    4300194: Stair47
+    4300196: Stair48
+    4300198: Stair49
+    4300200: Stair50
+    4300202: Stair51
+    4300204: pCube48
+    4300206: pCube35
+    4300208: pCube49
+    4300210: pCube62
+    4300212: pCube50
+    4300214: pCube57
+    4300216: pCube51
+    4300218: pCube58
+    4300220: pCube65
+    4300222: pCube63
+    4300224: pCube64
+    4300226: pCube66
+    4300228: pCube59
+    4300230: pCube55
+    4300232: pCube60
+    4300234: pCube54
+    4300236: pCube52
+    4300238: SquareSpiralStairs1
+    4300240: pCube32
+    4300242: pCube61
+    4300244: pCube48
+    4300246: pCube35
+    4300248: pCube49
+    4300250: pCube62
+    4300252: pCube50
+    4300254: pCube57
+    4300256: pCube51
+    4300258: pCube58
+    4300260: pCube65
+    4300262: pCube63
+    4300264: pCube64
+    4300266: pCube66
+    4300268: pCube59
+    4300270: pCube55
+    4300272: pCube60
+    4300274: pCube54
+    4300276: pCube52
+    4300278: SquareSpiralStairs1
+    4300280: pCube32
+    4300282: pCube61
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
