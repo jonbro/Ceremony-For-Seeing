@@ -25,6 +25,7 @@ ModelImporter:
     100034: IntonerChamber
     100036: Reliquary
     100038: RitualBases
+    100040: ArmOne
     400000: //RootNode
     400002: Brazier
     400004: InnerInscriber
@@ -45,6 +46,7 @@ ModelImporter:
     400034: IntonerChamber
     400036: Reliquary
     400038: RitualBases
+    400040: ArmOne
     2300000: //RootNode
     2300002: Brazier
     2300004: InnerInscriber
@@ -59,6 +61,7 @@ ModelImporter:
     2300022: Brazier 1
     2300024: Intoner 2
     2300026: IntonerChamber
+    2300028: ArmOne
     3300000: //RootNode
     3300002: Brazier
     3300004: InnerInscriber
@@ -73,6 +76,7 @@ ModelImporter:
     3300022: Brazier 1
     3300024: Intoner 2
     3300026: IntonerChamber
+    3300028: ArmOne
     4300000: RitualMachines2
     4300002: InscriberBase
     4300004: InscriberPedastal
@@ -86,6 +90,7 @@ ModelImporter:
     4300020: Brazier
     4300022: Intoner
     4300024: IntonerChamber
+    4300026: ArmOne
   materials:
     importMaterials: 1
     materialName: 0
