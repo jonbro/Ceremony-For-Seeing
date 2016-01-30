@@ -6,10 +6,64 @@ ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Brazier
+    100004: InnerInscriber
+    100006: INSCRIBER
+    100008: InscriberArmature
+    100010: InscriberBase
+    100012: InscriberPedastal
+    100014: Intoner
+    100016: MiddleInscriber
+    100018: OuterInscriber
+    100020: pCube2
+    100022: pCylinder1
+    100024: Shrine
     400000: //RootNode
+    400002: Brazier
+    400004: InnerInscriber
+    400006: INSCRIBER
+    400008: InscriberArmature
+    400010: InscriberBase
+    400012: InscriberPedastal
+    400014: Intoner
+    400016: MiddleInscriber
+    400018: OuterInscriber
+    400020: pCube2
+    400022: pCylinder1
+    400024: Shrine
     2300000: //RootNode
+    2300002: Brazier
+    2300004: InnerInscriber
+    2300006: InscriberArmature
+    2300008: InscriberBase
+    2300010: InscriberPedastal
+    2300012: MiddleInscriber
+    2300014: OuterInscriber
+    2300016: pCube2
+    2300018: pCylinder1
+    2300020: Shrine
     3300000: //RootNode
+    3300002: Brazier
+    3300004: InnerInscriber
+    3300006: InscriberArmature
+    3300008: InscriberBase
+    3300010: InscriberPedastal
+    3300012: MiddleInscriber
+    3300014: OuterInscriber
+    3300016: pCube2
+    3300018: pCylinder1
+    3300020: Shrine
     4300000: RitualMachines2
+    4300002: InscriberBase
+    4300004: InscriberPedastal
+    4300006: InscriberArmature
+    4300008: OuterInscriber
+    4300010: MiddleInscriber
+    4300012: InnerInscriber
+    4300014: pCylinder1
+    4300016: pCube2
+    4300018: Shrine
+    4300020: Brazier
   materials:
     importMaterials: 1
     materialName: 0
