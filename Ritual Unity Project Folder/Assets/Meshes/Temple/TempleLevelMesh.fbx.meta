@@ -447,6 +447,7 @@ ModelImporter:
     2300278: Stair7
     2300280: Stair8
     2300282: Stair9
+    2300284: //RootNode
     3300000: Cairn
     3300002: EntranceFloor
     3300004: OutsidePath
@@ -589,6 +590,7 @@ ModelImporter:
     3300278: Stair7
     3300280: Stair8
     3300282: Stair9
+    3300284: //RootNode
     4300000: pCube4
     4300002: pCube5
     4300004: pCube6
@@ -731,6 +733,8 @@ ModelImporter:
     4300278: SquareSpiralStairs1
     4300280: pCube32
     4300282: pCube61
+    4300284: LevelMesh
+    4300286: Level2
   materials:
     importMaterials: 1
     materialName: 0
