@@ -16,7 +16,6 @@ public class InscriptionAnimation : MonoBehaviour {
 	
 	}
 	void ObjectPlaced(GameObject obj){
-		Debug.Log(obj);
 		StartCoroutine(RunAnimation(obj));
 	}
 	IEnumerator RunAnimation(GameObject target){
