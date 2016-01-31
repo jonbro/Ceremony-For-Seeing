@@ -26,6 +26,16 @@ ModelImporter:
     100036: Reliquary
     100038: RitualBases
     100040: ArmOne
+    100042: Intoner1
+    100044: IntonerSpinners
+    100046: IntonerSpinners1
+    100048: polySurface18
+    100050: polySurface18 1
+    100052: polySurface23
+    100054: polySurface23 1
+    100056: polySurface24
+    100058: polySurface24 1
+    100060: Reliquary1
     400000: //RootNode
     400002: Brazier
     400004: InnerInscriber
@@ -47,6 +57,16 @@ ModelImporter:
     400036: Reliquary
     400038: RitualBases
     400040: ArmOne
+    400042: Intoner1
+    400044: IntonerSpinners
+    400046: IntonerSpinners1
+    400048: polySurface18
+    400050: polySurface18 1
+    400052: polySurface23
+    400054: polySurface23 1
+    400056: polySurface24
+    400058: polySurface24 1
+    400060: Reliquary1
     2300000: //RootNode
     2300002: Brazier
     2300004: InnerInscriber
@@ -62,6 +82,14 @@ ModelImporter:
     2300024: Intoner 2
     2300026: IntonerChamber
     2300028: ArmOne
+    2300030: Intoner1
+    2300032: polySurface18
+    2300034: polySurface18 1
+    2300036: polySurface23
+    2300038: polySurface23 1
+    2300040: polySurface24
+    2300042: polySurface24 1
+    2300044: Reliquary1
     3300000: //RootNode
     3300002: Brazier
     3300004: InnerInscriber
@@ -77,6 +105,14 @@ ModelImporter:
     3300024: Intoner 2
     3300026: IntonerChamber
     3300028: ArmOne
+    3300030: Intoner1
+    3300032: polySurface18
+    3300034: polySurface18 1
+    3300036: polySurface23
+    3300038: polySurface23 1
+    3300040: polySurface24
+    3300042: polySurface24 1
+    3300044: Reliquary1
     4300000: RitualMachines2
     4300002: InscriberBase
     4300004: InscriberPedastal
@@ -91,6 +127,14 @@ ModelImporter:
     4300022: Intoner
     4300024: IntonerChamber
     4300026: ArmOne
+    4300028: polySurface18
+    4300030: polySurface23
+    4300032: polySurface24
+    4300034: polySurface18
+    4300036: polySurface23
+    4300038: polySurface24
+    4300040: Intoner1
+    4300042: Reliquary1
   materials:
     importMaterials: 1
     materialName: 0
