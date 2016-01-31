@@ -19,7 +19,7 @@ public class IntonerAnimation : MonoBehaviour {
 			Quaternion originalRot = _captureHammer.transform.rotation;
 			float lastRotVal = 0;
 			LeanTween.value(_captureHammer, (float rotVal)=>{
-				_captureHammer.transform.rotation = originalRot*Quaternion.Euler(0,0,rotVal);
+				_captureHammer.transform.rotation = originalRot*Quaternion.Euler(0,rotVal,0);
 				if(lastRotVal%360 > rotVal%360 && rotVal != 360*5){
 					intoned.GetComponent<Intoned>().players[internalCount].clip = audioClips[internalCount];
 					intoned.GetComponent<Intoned>().players[internalCount].Play();
