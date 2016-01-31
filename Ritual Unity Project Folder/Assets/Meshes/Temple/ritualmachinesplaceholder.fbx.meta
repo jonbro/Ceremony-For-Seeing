@@ -36,6 +36,11 @@ ModelImporter:
     100056: polySurface24
     100058: polySurface24 1
     100060: Reliquary1
+    100062: INTONER
+    100064: RelicCube
+    100066: RELIQUARY
+    100068: ReliquaryMain
+    100070: ReliquaryTop
     400000: //RootNode
     400002: Brazier
     400004: InnerInscriber
@@ -67,6 +72,11 @@ ModelImporter:
     400056: polySurface24
     400058: polySurface24 1
     400060: Reliquary1
+    400062: INTONER
+    400064: RelicCube
+    400066: RELIQUARY
+    400068: ReliquaryMain
+    400070: ReliquaryTop
     2300000: //RootNode
     2300002: Brazier
     2300004: InnerInscriber
@@ -90,6 +100,10 @@ ModelImporter:
     2300040: polySurface24
     2300042: polySurface24 1
     2300044: Reliquary1
+    2300046: IntonerBase
+    2300048: RelicCube
+    2300050: ReliquaryMain
+    2300052: ReliquaryTop
     3300000: //RootNode
     3300002: Brazier
     3300004: InnerInscriber
@@ -113,6 +127,10 @@ ModelImporter:
     3300040: polySurface24
     3300042: polySurface24 1
     3300044: Reliquary1
+    3300046: IntonerBase
+    3300048: RelicCube
+    3300050: ReliquaryMain
+    3300052: ReliquaryTop
     4300000: RitualMachines2
     4300002: InscriberBase
     4300004: InscriberPedastal
@@ -135,6 +153,10 @@ ModelImporter:
     4300038: polySurface24
     4300040: Intoner1
     4300042: Reliquary1
+    4300044: IntonerBase
+    4300046: ReliquaryTop
+    4300048: ReliquaryMain
+    4300050: RelicCube
   materials:
     importMaterials: 1
     materialName: 0
