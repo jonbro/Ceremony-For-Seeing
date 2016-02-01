@@ -133,5 +133,8 @@ public class InscriptionAnimation : MonoBehaviour {
 		LeanTween.move (target, startPosition.transform.position, 1).setEase(LeanTweenType.easeInOutCirc);
 		yield return new WaitForSeconds(1.5f);
 		SendMessage("RitualComplete", target);
+		foreach(GameObject arm in inscriberArms){
+			arm.transform.localRotation = Quaternion.Euler(0,0,0);
+		}
 	}
 }
