@@ -12,7 +12,7 @@ public class EndGame : MonoBehaviour {
 	}
 	void ObjectPlaced(GameObject obj){
 		StartCoroutine(Blackout());
-
+		GameController.instance.player.GetComponent<AudioSource>().PlayOneShot(GameController.instance.voiceOver[7]);
 	}
 	IEnumerator Blackout(){
 		foreach(UnityEngine.UI.Text t in credits){

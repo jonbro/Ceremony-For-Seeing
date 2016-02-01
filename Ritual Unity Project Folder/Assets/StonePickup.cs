@@ -10,6 +10,7 @@ public class StonePickup : MonoBehaviour {
 				GameController.instance.holdingObject.SetHoldingObject(transform.parent.gameObject);
 				gameObject.SetActive(false);
 				fadeOutOnpickup.enabled = true;
+				GameController.instance.player.GetComponent<AudioSource>().PlayOneShot(GameController.instance.voiceOver[6]);
 			}
 		}
 	}

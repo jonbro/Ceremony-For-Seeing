@@ -4,8 +4,11 @@ using System.Collections.Generic;
 public class GameController : MonoBehaviour {
 	private static GameController _instance;
 	public List<GameObject> teleportLocations;
+	public List<AudioClip> voiceOver;
 	private int galleryPlacementCount = 0;
+	private int pickupCount = 0;
 	public FadeIn pathFade;
+	public GameObject rock;
 	public static GameController instance{
 		get{
 			if(_instance == null){
@@ -15,7 +18,6 @@ public class GameController : MonoBehaviour {
 			return _instance;
 		}
 	}
-
 	public GameObject player;
 	public HoldingObject holdingObject;
 	// Use this for initialization
@@ -28,8 +30,18 @@ public class GameController : MonoBehaviour {
 			player = Camera.main.transform.parent.gameObject;
 		}
 		holdingObject = player.GetComponentInChildren<HoldingObject>();
+		StartCoroutine(PlayFirstClip());
 	}
-	
+	IEnumerator PlayFirstClip(){
+		yield return new WaitForSeconds(1.0f);
+		player.GetComponent<AudioSource>().PlayOneShot(voiceOver[0]);
+	}
+	public void PickupObject(){
+		pickupCount++;
+		if(pickupCount == 1){
+			player.GetComponent<AudioSource>().PlayOneShot(voiceOver[1]);
+		}
+	}
 	// Update is called once per frame
 	void Update () {
 		#if UNITY_EDITOR
@@ -47,8 +59,10 @@ public class GameController : MonoBehaviour {
 	}
 	public void PlaceInGallery(){
 		galleryPlacementCount++;
+		player.GetComponent<AudioSource>().PlayOneShot(voiceOver[galleryPlacementCount+1]);
 		if(galleryPlacementCount == 4){
 			pathFade.enabled = true;
+			rock.SetActive(true);
 		}
 	}
 }

@@ -31,6 +31,7 @@ public class RitualPickup : MonoBehaviour {
 			// instance the ritual object and attach it to the player
 			GameObject ritualObjectInstance = (GameObject)Instantiate(ritualObject, Vector3.zero, Quaternion.identity);
 			GameController.instance.holdingObject.SetHoldingObject(ritualObjectInstance);
+			GameController.instance.PickupObject();
 		}
 	}
 }
