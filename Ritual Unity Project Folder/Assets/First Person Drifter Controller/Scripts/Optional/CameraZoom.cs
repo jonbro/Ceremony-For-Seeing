@@ -12,7 +12,7 @@ public class CameraZoom : MonoBehaviour
 	
 	private float targetFOV;
 	private float baseFOV;
-	
+	public UnityStandardAssets.ImageEffects.BlurOptimized blur;
 	void Start ()
 	{
 		SetBaseFOV(GetComponent<Camera>().fieldOfView);
@@ -23,10 +23,12 @@ public class CameraZoom : MonoBehaviour
 		if( Input.GetButton("Fire2") )
 		{
 			targetFOV = zoomFOV;
+			blur.enabled = true;
 		}
 		else
 		{
 			targetFOV = baseFOV;
+			blur.enabled = false;
 		}
 		
 		UpdateZoom();
