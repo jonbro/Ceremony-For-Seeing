@@ -41,6 +41,7 @@ ModelImporter:
     100066: RELIQUARY
     100068: ReliquaryMain
     100070: ReliquaryTop
+    100072: GateSurface
     400000: //RootNode
     400002: Brazier
     400004: InnerInscriber
@@ -77,6 +78,7 @@ ModelImporter:
     400066: RELIQUARY
     400068: ReliquaryMain
     400070: ReliquaryTop
+    400072: GateSurface
     2300000: //RootNode
     2300002: Brazier
     2300004: InnerInscriber
@@ -104,6 +106,7 @@ ModelImporter:
     2300048: RelicCube
     2300050: ReliquaryMain
     2300052: ReliquaryTop
+    2300054: GateSurface
     3300000: //RootNode
     3300002: Brazier
     3300004: InnerInscriber
@@ -131,6 +134,7 @@ ModelImporter:
     3300048: RelicCube
     3300050: ReliquaryMain
     3300052: ReliquaryTop
+    3300054: GateSurface
     4300000: RitualMachines2
     4300002: InscriberBase
     4300004: InscriberPedastal
@@ -157,6 +161,7 @@ ModelImporter:
     4300046: ReliquaryTop
     4300048: ReliquaryMain
     4300050: RelicCube
+    4300052: GateSurface
   materials:
     importMaterials: 1
     materialName: 0
