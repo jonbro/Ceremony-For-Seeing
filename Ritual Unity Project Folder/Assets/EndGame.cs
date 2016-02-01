@@ -7,6 +7,9 @@ public class EndGame : MonoBehaviour {
 	public GameObject canvas;
 	public UnityEngine.UI.Image panel;
 	public List<UnityEngine.UI.Text> credits;
+	public UnityEngine.Audio.AudioMixer mixer;
+	public UnityEngine.Audio.AudioMixerSnapshot noSoundtrack;
+
 	void Start(){
 		canvas.SetActive(false);
 	}
@@ -36,6 +39,8 @@ public class EndGame : MonoBehaviour {
 				t.color = new Color(1,1,1,currentTime/creditFadeTime);
 			}
 		}
+		yield return new WaitForSeconds(3.0f);
+		mixer.TransitionToSnapshots(new UnityEngine.Audio.AudioMixerSnapshot[]{noSoundtrack}, new float[]{1}, 3.0f);
 		yield return new WaitForSeconds(5.0f);
 		Application.Quit();
 	}

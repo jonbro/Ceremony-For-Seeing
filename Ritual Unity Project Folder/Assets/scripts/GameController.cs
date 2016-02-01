@@ -4,6 +4,7 @@ using System.Collections.Generic;
 public class GameController : MonoBehaviour {
 	private static GameController _instance;
 	public List<GameObject> teleportLocations;
+	public List<GameObject> ritualPickups;
 	public List<AudioClip> voiceOver;
 	private int galleryPlacementCount = 0;
 	private int pickupCount = 0;
@@ -56,6 +57,7 @@ public class GameController : MonoBehaviour {
 		if(Input.GetKeyDown(KeyCode.Alpha0))
 			PlaceInGallery();
 		#endif
+
 	}
 	public void PlaceInGallery(){
 		galleryPlacementCount++;
@@ -63,6 +65,9 @@ public class GameController : MonoBehaviour {
 		if(galleryPlacementCount == 4){
 			pathFade.enabled = true;
 			rock.SetActive(true);
+			foreach(GameObject go in ritualPickups){
+				go.SetActive(false);
+			}
 		}
 	}
 }

@@ -7,6 +7,7 @@ public class InscriptionAnimation : MonoBehaviour {
 	public GameObject drawingPoint;
 	public GameObject inscriptionPrefab;
 	public List<GameObject> inscriberArms;
+	public AudioClip running;
 	public static Color HSVToRGB(float H, float S, float V)
 	{
 		if (S == 0f)
@@ -87,6 +88,7 @@ public class InscriptionAnimation : MonoBehaviour {
 		StartCoroutine(RunAnimation(obj, timeToRun));
 	}
 	void RunArms(float timeToRun){
+		drawingPoint.GetComponent<AudioSource>().PlayOneShot(running);
 		foreach(GameObject arm in inscriberArms){
 			GameObject _captureArm = arm;
 			Debug.Log(arm.name);
