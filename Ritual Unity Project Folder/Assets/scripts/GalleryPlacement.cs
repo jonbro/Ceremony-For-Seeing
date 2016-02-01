@@ -15,6 +15,7 @@ public class GalleryPlacement : MonoBehaviour {
 			holdObject.transform.position = objectPosition.transform.position;
 			holdObject.transform.SetParent(objectPosition.transform);
 			GameController.instance.holdingObject.RemoveHoldingObject();
+			GameController.instance.PlaceInGallery();
 		}
 	}
 	void OnTriggerEnter(Collider other) {

@@ -4,6 +4,8 @@ using System.Collections.Generic;
 public class GameController : MonoBehaviour {
 	private static GameController _instance;
 	public List<GameObject> teleportLocations;
+	private int galleryPlacementCount = 0;
+	public FadeIn pathFade;
 	public static GameController instance{
 		get{
 			if(_instance == null){
@@ -30,6 +32,7 @@ public class GameController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		#if UNITY_EDITOR
 		if(Input.GetKeyDown(KeyCode.Alpha1))
 			player.transform.position = teleportLocations[0].transform.position;
 		if(Input.GetKeyDown(KeyCode.Alpha2))
@@ -38,5 +41,14 @@ public class GameController : MonoBehaviour {
 			player.transform.position = teleportLocations[2].transform.position;
 		if(Input.GetKeyDown(KeyCode.Alpha4))
 			player.transform.position = teleportLocations[3].transform.position;
+		if(Input.GetKeyDown(KeyCode.Alpha0))
+			PlaceInGallery();
+		#endif
+	}
+	public void PlaceInGallery(){
+		galleryPlacementCount++;
+		if(galleryPlacementCount == 4){
+			pathFade.enabled = true;
+		}
 	}
 }
