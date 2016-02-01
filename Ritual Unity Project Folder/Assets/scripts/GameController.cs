@@ -8,7 +8,7 @@ public class GameController : MonoBehaviour {
 	public List<AudioClip> voiceOver;
 	private int galleryPlacementCount = 0;
 	private int pickupCount = 0;
-	public FadeIn pathFade;
+	public FadeIn pathFade, cairnFade;
 	public GameObject rock;
 	public static GameController instance{
 		get{
@@ -64,6 +64,7 @@ public class GameController : MonoBehaviour {
 		player.GetComponent<AudioSource>().PlayOneShot(voiceOver[galleryPlacementCount+1]);
 		if(galleryPlacementCount == 4){
 			pathFade.enabled = true;
+			cairnFade.enabled = true;
 			rock.SetActive(true);
 			foreach(GameObject go in ritualPickups){
 				go.SetActive(false);

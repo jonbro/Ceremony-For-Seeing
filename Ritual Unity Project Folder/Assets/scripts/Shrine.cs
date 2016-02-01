@@ -2,17 +2,19 @@
 using System.Collections;
 
 public class Shrine : MonoBehaviour {
-	bool hasPlayer;
+	bool hasPlayer, hasObject;
 	public GameObject objectPosition;
 	public GameObject objectForPickup;
+
 	public BoxCollider pickupTrigger, mainTrigger;
 	void Update(){
 		if(hasPlayer && Input.GetMouseButtonDown(0)){
-			if(GameController.instance.holdingObject.holdingObject != null){
+			if(GameController.instance.holdingObject.holdingObject != null && !hasObject){
 				GameObject holdObject = GameController.instance.holdingObject.holdingObject;
 				holdObject.transform.position = objectPosition.transform.position;
 				holdObject.transform.SetParent(objectPosition.transform);
 				GameController.instance.holdingObject.RemoveHoldingObject();
+				hasObject = true;
 				// if we have a seperate pickup trigger, then activate that
 				if(pickupTrigger != null){
 					mainTrigger.enabled = false;
@@ -21,6 +23,7 @@ public class Shrine : MonoBehaviour {
 				}
 				SendMessage("ObjectPlaced", holdObject);
 			}else if(objectForPickup != null){
+				hasObject = false;
 				GameController.instance.holdingObject.SetHoldingObject(objectForPickup);
 				objectForPickup = null;
 				if(pickupTrigger != null){
