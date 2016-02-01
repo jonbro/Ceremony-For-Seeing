@@ -10,6 +10,7 @@ public class GameController : MonoBehaviour {
 	private int pickupCount = 0;
 	public FadeIn pathFade, cairnFade;
 	public GameObject rock;
+	public int screenShotCount = 0;
 	public static GameController instance{
 		get{
 			if(_instance == null){
@@ -57,7 +58,11 @@ public class GameController : MonoBehaviour {
 		if(Input.GetKeyDown(KeyCode.Alpha0))
 			PlaceInGallery();
 		#endif
-
+		if(Input.GetKeyDown(KeyCode.Print)){
+			screenShotCount++;
+			string Screen_Shot_File_Name = "Screenshot__" + screenShotCount + System.DateTime.Now.ToString("__yyyy-MM-dd") + ".png";
+			Application.CaptureScreenshot(Screen_Shot_File_Name);
+		}
 	}
 	public void PlaceInGallery(){
 		galleryPlacementCount++;

@@ -9,13 +9,15 @@ public class GalleryPlacement : MonoBehaviour {
 			&& Input.GetMouseButtonDown(0) 
 			&& GameController.instance.holdingObject.holdingObject != null
 			&& GameController.instance.holdingObject.holdingObject.GetComponent<Ritualized>() != null
-			&& !hasObject)
+			&& !hasObject
+			&& !GameController.instance.holdingObject.CompareTag("stone"))
 		{
 			GameObject holdObject = GameController.instance.holdingObject.holdingObject;
 			holdObject.transform.position = objectPosition.transform.position;
 			holdObject.transform.SetParent(objectPosition.transform);
 			GameController.instance.holdingObject.RemoveHoldingObject();
 			GameController.instance.PlaceInGallery();
+			hasObject = true;
 		}
 	}
 	void OnTriggerEnter(Collider other) {
