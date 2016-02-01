@@ -13,6 +13,7 @@ public class CameraZoom : MonoBehaviour
 	private float targetFOV;
 	private float baseFOV;
 	public UnityStandardAssets.ImageEffects.BlurOptimized blur;
+	public HeadBob headBob;
 	void Start ()
 	{
 		SetBaseFOV(GetComponent<Camera>().fieldOfView);
@@ -24,11 +25,13 @@ public class CameraZoom : MonoBehaviour
 		{
 			targetFOV = zoomFOV;
 			blur.enabled = true;
+			headBob.enabled = false;
 		}
 		else
 		{
 			targetFOV = baseFOV;
 			blur.enabled = false;
+			headBob.enabled = true;
 		}
 		
 		UpdateZoom();
