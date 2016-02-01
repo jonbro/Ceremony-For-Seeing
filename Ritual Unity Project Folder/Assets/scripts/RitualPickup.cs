@@ -26,7 +26,7 @@ public class RitualPickup : MonoBehaviour {
 				lookingAt = true;
 			}
 		}
-		if(lookingAt && Input.GetMouseButtonDown(0)){
+		if(lookingAt && Input.GetMouseButtonDown(0) && GameController.instance.holdingObject.holdingObject == null){
 			gameObject.SetActive(false);
 			// instance the ritual object and attach it to the player
 			GameObject ritualObjectInstance = (GameObject)Instantiate(ritualObject, Vector3.zero, Quaternion.identity);

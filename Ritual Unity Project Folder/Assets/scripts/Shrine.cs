@@ -17,11 +17,17 @@ public class Shrine : MonoBehaviour {
 				if(pickupTrigger != null){
 					mainTrigger.enabled = false;
 					pickupTrigger.enabled = true;
+					hasPlayer = false;
 				}
 				SendMessage("ObjectPlaced", holdObject);
 			}else if(objectForPickup != null){
 				GameController.instance.holdingObject.SetHoldingObject(objectForPickup);
 				objectForPickup = null;
+				if(pickupTrigger != null){
+					mainTrigger.enabled = true;
+					pickupTrigger.enabled = false;
+					hasPlayer = false;
+				}
 			}
 		}
 	}

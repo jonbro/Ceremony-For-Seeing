@@ -9,6 +9,7 @@ public class ReliquaryAnimation : MonoBehaviour {
 		// move object back into machine
 		ritualObj = obj;
 		stamperStartPosition = stamper.transform.position;
+		LeanTween.scale(obj, obj.transform.localScale*0.5f, 0.5f).setEase(LeanTweenType.easeInOutCubic);
 		LeanTween.move(obj, objectMoveInternal.transform.position, 3.0f).setEase(LeanTweenType.easeInCubic).setOnComplete(StamperDownAnimation);
 	}
 	void StamperDownAnimation(){
